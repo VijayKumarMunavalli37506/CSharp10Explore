@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include=".net4\CovariantAndContravariant.cs" />
+    <Compile Include=".netcore\.netCore3.0\CSharp8FeaturesExploration.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include=".net4\CovarianceAndContra\" />
+    <Folder Include=".net4\Delegates\" />
+    <Folder Include=".net4\Generics\" />
+    <Folder Include=".net6\" />
+    <Folder Include=".net5\" />
+  </ItemGroup>
+
+</Project>

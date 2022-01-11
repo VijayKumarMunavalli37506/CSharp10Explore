@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <Compile Include=".net4\CovariantAndContravariant.cs" />
+    <Compile Include=".net5\CSharpEightFeatures.cs" />
     <Compile Include=".netcore\.netCore3.0\CSharp8FeaturesExploration.cs" />
   </ItemGroup>
 
@@ -15,7 +16,6 @@
     <Folder Include=".net4\Delegates\" />
     <Folder Include=".net4\Generics\" />
     <Folder Include=".net6\" />
-    <Folder Include=".net5\" />
   </ItemGroup>
 
 </Project>

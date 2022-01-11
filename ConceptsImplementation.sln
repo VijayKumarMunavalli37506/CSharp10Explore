@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular", "Angular\Angular.
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Nodejs", "Nodejs\Nodejs.njsproj", "{F18FF21B-A23D-4AFC-81FD-7A0425055998}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Rxjs", "Rxjs\Rxjs.njsproj", "{97B5F695-F49D-483C-8A9C-C7F68DA81E4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{F18FF21B-A23D-4AFC-81FD-7A0425055998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F18FF21B-A23D-4AFC-81FD-7A0425055998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F18FF21B-A23D-4AFC-81FD-7A0425055998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B5F695-F49D-483C-8A9C-C7F68DA81E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B5F695-F49D-483C-8A9C-C7F68DA81E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B5F695-F49D-483C-8A9C-C7F68DA81E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B5F695-F49D-483C-8A9C-C7F68DA81E4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,14 @@
+{
+  "name": "rxjs",
+  "version": "0.0.0",
+  "description": "Rxjs",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "i": "^0.3.7",
+    "rxjs": "^7.5.2"
+  },
+  "type": "module"
+}

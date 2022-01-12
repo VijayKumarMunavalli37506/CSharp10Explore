@@ -32,7 +32,19 @@
     <Content Include="Concepts\Observable.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="Concepts\Of.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Concepts\Operators.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Concepts\ReplaySubject.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Concepts\Schedular.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Concepts\Subject.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="package.json" />

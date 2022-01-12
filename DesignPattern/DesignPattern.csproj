@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Behavioural\MediatorPattern\" />
     <Folder Include="Creational\" />
-    <Folder Include="Behavioural\" />
     <Folder Include="Structural\" />
   </ItemGroup>
 

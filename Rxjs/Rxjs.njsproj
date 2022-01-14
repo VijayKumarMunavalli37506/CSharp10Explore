@@ -29,6 +29,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <Content Include="Concepts\BehaviourSubject.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Concepts\Observable.js">
       <SubType>Code</SubType>
     </Content>
@@ -44,14 +47,25 @@
     <Content Include="Concepts\Schedular.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="Concepts\Slice.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Concepts\Splice.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Concepts\Subject.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="UnitTests\UnitTest1.js">
+      <SubType>Code</SubType>
+      <TestFramework>Jasmine</TestFramework>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Concepts\" />
+    <Folder Include="UnitTests\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
 </Project>

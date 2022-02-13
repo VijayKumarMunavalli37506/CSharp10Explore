@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myapp
+data:
+  key: value
+microservice:
+  -app: user-authentication #list values
+  port: 9000
+  version: 0.1

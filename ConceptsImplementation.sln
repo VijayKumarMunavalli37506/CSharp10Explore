@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30225.117
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetExplore", "CSharp10Explore\DotnetExplore.csproj", "{C6204089-BBF8-4F44-A56A-83CAE28B7B0C}"
 EndProject
@@ -97,7 +97,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NER", "NER\NER.pyproj", "{8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{7E1A8E1E-F511-4169-B6AA-C42C2F0DC2E8}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IdentityServer4", "IdentityServer4\IdentityServer4.fsproj", "{D5F3F770-E4E7-4E51-ADD9-0A01683A82C3}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "IdentityServer4", "IdentityServer4\IdentityServer4.fsproj", "{D5F3F770-E4E7-4E51-ADD9-0A01683A82C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AWS", "AWS", "{567EE48B-FA36-49E2-B4F0-5053B6F98AC0}"
 EndProject
@@ -105,7 +105,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cloud", "Cloud", "{8CB1E641
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessagingService", "MessagingService", "{88605C32-C93F-4656-B1C1-EC9382EF9660}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus", "ServiceBus\ServiceBus.csproj", "{9F0E0B14-3261-4A1D-808E-B180EC53D241}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus", "ServiceBus\ServiceBus.csproj", "{9F0E0B14-3261-4A1D-808E-B180EC53D241}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TechTransformation", "TechTransformation", "{FC6B0CCB-1D77-45F5-AE41-B2E4C30CC1EC}"
 EndProject
@@ -129,21 +129,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoSQL", "MongoSQL", "{99
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SystemDesign", "SystemDesign", "{F2B54575-9A88-47BA-ACB5-F9080CCBE929}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAPTheorem", "CAPTheorem\CAPTheorem.csproj", "{75A575ED-EC43-45AC-8DC3-2A950DE26F70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAPTheorem", "CAPTheorem\CAPTheorem.csproj", "{75A575ED-EC43-45AC-8DC3-2A950DE26F70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundRobin", "RoundRobin\RoundRobin.csproj", "{4309789B-ECD0-4A7F-A0DF-A5C72CA19AF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoundRobin", "RoundRobin\RoundRobin.csproj", "{4309789B-ECD0-4A7F-A0DF-A5C72CA19AF7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caching", "Caching", "{78148983-F0EA-4F87-817A-7261E2A56797}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redish", "Redish\Redish.csproj", "{AF86DDC7-4E4F-49E1-BAA5-0F8B0F756ED2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redish", "Redish\Redish.csproj", "{AF86DDC7-4E4F-49E1-BAA5-0F8B0F756ED2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{F3FD9C33-7C01-4160-815E-1F6A65872968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue", "Queue\Queue.csproj", "{F3FD9C33-7C01-4160-815E-1F6A65872968}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLServiceBroker", "SQLServiceBroker\SQLServiceBroker.csproj", "{FB9644CA-1787-42CA-9A72-BBFEBC6605CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServiceBroker", "SQLServiceBroker\SQLServiceBroker.csproj", "{FB9644CA-1787-42CA-9A72-BBFEBC6605CE}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "OpenCV2", "OpenCV2\OpenCV2.pyproj", "{470FD023-08EC-4CBA-8DCF-2BA4516B0BE2}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Yolov5", "Yolov5\Yolov5.pyproj", "{DB146594-7B1A-4FB5-B44A-E95493EED335}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Durable Function", "Durable Function\Durable Function.csproj", "{D92D961D-D4CB-4D84-8F5C-F56A158D1665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableOrchestrationFunction", "DurableOrchestrationFunction\DurableOrchestrationFunction.csproj", "{97C88128-0BCC-4D61-A952-9C214C4B88A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{537917A3-893C-442A-9E44-547B47720864}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -269,6 +278,14 @@ Global
 		{470FD023-08EC-4CBA-8DCF-2BA4516B0BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB146594-7B1A-4FB5-B44A-E95493EED335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DB146594-7B1A-4FB5-B44A-E95493EED335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92D961D-D4CB-4D84-8F5C-F56A158D1665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92D961D-D4CB-4D84-8F5C-F56A158D1665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92D961D-D4CB-4D84-8F5C-F56A158D1665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92D961D-D4CB-4D84-8F5C-F56A158D1665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C88128-0BCC-4D61-A952-9C214C4B88A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C88128-0BCC-4D61-A952-9C214C4B88A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C88128-0BCC-4D61-A952-9C214C4B88A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C88128-0BCC-4D61-A952-9C214C4B88A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -332,6 +349,8 @@ Global
 		{FB9644CA-1787-42CA-9A72-BBFEBC6605CE} = {3105E80E-22CB-45AA-86BE-9AA4AE4BF4BF}
 		{470FD023-08EC-4CBA-8DCF-2BA4516B0BE2} = {C3BDAC5D-81BA-4FF6-9C89-D7A6FD116561}
 		{DB146594-7B1A-4FB5-B44A-E95493EED335} = {C3BDAC5D-81BA-4FF6-9C89-D7A6FD116561}
+		{D92D961D-D4CB-4D84-8F5C-F56A158D1665} = {95396F3A-B103-4E08-B7AF-083238CF6F29}
+		{97C88128-0BCC-4D61-A952-9C214C4B88A8} = {95396F3A-B103-4E08-B7AF-083238CF6F29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B532105A-B09E-4A28-A194-465F19029C28}

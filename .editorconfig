@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# AZF0001: Avoid async void
+dotnet_diagnostic.AZF0001.severity = silent
